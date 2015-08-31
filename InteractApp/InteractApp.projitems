@@ -11,5 +11,6 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)InteractApp.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Event.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventListPage.cs" />
   </ItemGroup>
 </Project>
