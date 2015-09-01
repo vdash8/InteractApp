@@ -12,7 +12,7 @@ namespace InteractApp
 		{
 			var EventList = new ListView {
 				ItemsSource = new List<Event> () {
-					new Event (0, "invalid_image_uri", "Event0", new DateTime(), "Fremont, CA", "Test Event 0", new List<String> (){ "service" })
+					Event.newEvent(0, "invalid_image_uri", "Event0", new DateTime(), "Fremont, CA", "Test Event 0", new List<String> (){ "service" })
 				},
 				RowHeight = 50,
 			};
